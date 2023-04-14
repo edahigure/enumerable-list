@@ -73,7 +73,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```
-  cd Morse-code
+  cd enumerable-list
   bundle install
 ```
 
