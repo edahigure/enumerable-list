@@ -45,9 +45,7 @@ This project is about how to use a module inside your class.
 - Custom Enumerable filter? method
 - Custom Enumerable any? method
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
