@@ -1,4 +1,4 @@
-require './enumerable_mod'
+require_relative './enumerable_mod'
 
 class MyList
   include Enumerable
