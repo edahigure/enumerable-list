@@ -1,4 +1,4 @@
-require "./enumerable_mod.rb"
+require './enumerable_mod'
 
 class MyList
   include Enumerable
@@ -22,4 +22,4 @@ list.any? { |e| e == 2 }
 
 list.any? { |e| e == 5 }
 
-list.filter { |e| e.even? }
+list.filter(&:even?)

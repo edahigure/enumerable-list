@@ -6,9 +6,7 @@ module Enumerable
   def all?(&block)
     flag = true
     each do |element|
-      unless block.call(element)
-        flag = false
-      end
+      flag = false unless block.call(element)
     end
     puts flag
   end
@@ -16,9 +14,7 @@ module Enumerable
   def any?(&block)
     flag = false
     each do |element|
-      if block.call(element)
-        flag = true
-      end
+      flag = true if block.call(element)
     end
     puts flag
   end
@@ -27,11 +23,8 @@ module Enumerable
     new_arr = []
 
     each do |element|
-      if block.call(element)
-        new_arr.push(element)
-      end
+      new_arr.push(element) if block.call(element)
     end
     puts new_arr
   end
-
 end
