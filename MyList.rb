@@ -3,15 +3,15 @@ require "./enumerable_mod.rb"
 class MyList
   include Enumerable
 
-  def initialize(array)
-    @list = array
+  def initialize(*array)
+    @list = array.flatten
   end
 
-  def listPrint
-    print_array @list
+  def each(&block)
+    @list.each(&block)
   end
 end
 
-data = MyList.new([1, 2, 3, 4, 5, 6])
+data = MyList.new(1, 2, 3, 4, 5, 6)
 
-data.all? { |number| puts number * 10 }
+data.filter { |e| e.even? }
