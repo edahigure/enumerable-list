@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Enumerable
 This project is about how to use a module inside your class.
 <a name="readme-top"></a>
@@ -144,6 +143,3 @@ This project is [MIT](https://github.com/mrkamin/Vet-Clinic/blob/Dev/LICENSE) li
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-=======
-# enumerable-list
->>>>>>> 39a5490a29abba798a18ae858e265678b1bd101d
